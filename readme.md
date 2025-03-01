@@ -33,3 +33,15 @@ There are three folders in this repo mapped specifically to the spark/notebook c
 - `warehouse` to be used as a warehouse for written data
 
 [Find Guides and Tutorials Here](https://github.com/developer-advocacy-dremio/quick-guides-from-dremio)
+
+For permission errors
+```
+sudo chmod -R 775 ./notebooks
+sudo chown -R 1000:1000 ./notebooks
+```
+
+To close the docker compose
+```
+docker compose down
+```
+
