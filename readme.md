@@ -44,7 +44,7 @@ To close the docker compose
 ```
 docker compose down
 ```
-Dremio on localhost:9047
-Flink on localhost:8081
-Minio on localhost:9001 (storage:9000 for s3 endpoints)
-Jupyter Notebook w/ Spark on localhost:8080
+* Dremio on localhost:9047
+* Flink on localhost:8081
+* Minio on localhost:9001 (storage:9000 for s3 endpoints)
+* Jupyter Notebook w/ Spark on localhost:8080
