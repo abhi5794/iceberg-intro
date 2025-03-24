@@ -26,6 +26,8 @@ Dremio (data lakehouse platform (query engine, access layer, more))
 docker-compose up dremio
 ```
 
+Make sure you login in to minio and then create a `warehouse` bucket or the setup will not work
+
 There are three folders in this repo mapped specifically to the spark/notebook container which are:
 
 - `datasets` use this for any sample datasets
